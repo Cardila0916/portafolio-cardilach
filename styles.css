@@ -330,10 +330,14 @@ ul li a:hover {
     align-items: center;
     height: 4rem;
     padding: 0 2rem;
-    background-color: #5740A0;
+    background-color: #040307;
+    border: 2px solid #5740A0;
     border-radius: 3rem;
     z-index: 1000;
     display: -webkit-inline-box;
+}
+#buttom .buttom-nav:hover {
+    border: 2px solid #fff;
 }
 .buttom-ul {
     display: flex;
@@ -341,7 +345,7 @@ ul li a:hover {
     align-items: center;
 } 
 .buttom-ul li {
-    color: #fff;
+    color: #5740A0;
     width: 3rem;
     height: 3rem;
     cursor: pointer;
@@ -353,8 +357,8 @@ ul li a:hover {
     text-decoration: none;
 }
 .buttom-ul li:hover {
-    background-color: #fff;
-    color: #5740A0;
+    background-color: #5740A0;
+    color: #fff;
 }
 .buttom-ul li:active {
     background-color: #fff;
