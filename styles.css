@@ -188,10 +188,11 @@ h4 {
     position: relative;
 }
 .image-container img {
-    border-radius: 1rem;
+    border-radius: .5rem;
+    width: 340px;
 }
 .image-container .p-one {
-    width: 200px;
+    width: 300px;
 }
 .projects-item {
     overflow: hidden;
@@ -199,7 +200,7 @@ h4 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 20rem;
+    width: 330px;
     margin: 1rem;
     background: #040307;
     border: 1px solid #5740A0;
@@ -361,5 +362,5 @@ ul li a:hover {
     color: #fff;
 }
 .buttom-ul li:active {
-    background-color: #fff;
+    background-color: #5740A0;
 }
